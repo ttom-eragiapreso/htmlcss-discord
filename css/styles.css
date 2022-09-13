@@ -35,9 +35,19 @@ p{
   border-radius: 100000px;
 }
 
+.btn:hover{
+  background-color: hsl(0, 0%, 60%);
+  cursor: pointer;
+}
+
 .btn.btn-reverse{
   background-color: black;
   color: white;
+}
+
+.btn.btn-reverse:hover{
+  background-color: hsl(0, 0%, 50%);
+  cursor: pointer;
 }
 
 header {
@@ -187,7 +197,7 @@ span:first-child{
 }
 
 .btn-bottom{
-  background-color: hsl(226, 45%, 80%);
+  background-color: hsl(226, 45%, 60%);
   color: white;
 }
 
