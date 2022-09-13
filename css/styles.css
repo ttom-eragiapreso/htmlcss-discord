@@ -17,6 +17,10 @@ h1{
   font-size: 4.5rem;
 }
 
+p{
+ line-height: 1.6;
+}
+
 .container {
   max-width: 75%;
   margin: 0 auto;
@@ -121,15 +125,9 @@ span:first-child{
 }
 
 .white-section, .grey-section{
-  height: 600px;
-  border-bottom: 1px solid black;
+  padding: 100px 0;
 }
 
-.img {
-  width: 350px;
-  height: 350px;
-  background-color: lightsalmon;
-}
 
 .white-section, .grey-section {
   display: flex;
@@ -138,15 +136,21 @@ span:first-child{
 
 .container-img-left{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .container-img-left .info, .container-img-right .info {
-  flex-basis: 30%;
+  flex-basis: 25%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .info h2 {
-  font-size: 2rem;
+  font-size: 4rem;
   margin-bottom: 30px;
 }
 
@@ -161,7 +165,11 @@ span:first-child{
 .container-img-right{
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.white-section.section-bottom{
+  background-color: #f6f6f6;
 }
 
 .container-img-left.bottom{
@@ -171,6 +179,10 @@ span:first-child{
   height: 100%;
   font-size: 1.5rem;
   padding-bottom: 20px;
+}
+
+.img-bottom{
+  width: 1200px;
 }
 
 .container-img-left.bottom .info {
