@@ -71,7 +71,6 @@ header {
   font-size: 2rem;
   color: white;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -132,6 +131,10 @@ header {
   margin-bottom: 45px;
 }
 
+.descrizione-jumbo{
+  margin-bottom: 80px;
+}
+
 .fa-solid.fa-down-long {
   font-size: 1.2rem;
   vertical-align: middle;
@@ -157,12 +160,6 @@ span:first-child {
 
 .container-img-left .info, .container-img-right .info {
   flex-basis: 25%;
-}
-
-.info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
 }
 
 .info h2 {
